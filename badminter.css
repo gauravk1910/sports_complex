@@ -1,0 +1,201 @@
+.c{
+    text-align: center;
+    font-weight: bold;
+    font-size:80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+#m{
+    margin-left:1%;
+    margin-left:1%;
+    width: 96%;
+} 
+body{
+    margin:auto
+}
+
+#main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#search{
+    background-image: url('food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:red;
+    background-size: 100% 500px;
+    width:100%;
+    height: 500px;
+}
+
+#login{
+    margin-left: 70%;
+}
+
+#login> a{
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+}
+
+#logo{
+    font-size:90px;
+    color:red;
+    text-align: center;
+    background-color:white;
+    height:150px;
+    width:150px;
+    margin-left: 45%;
+    border-radius: 50%;
+}
+
+#logo > span {
+    font-weight: bold;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 10px
+}
+
+#heading{
+    text-align: center;
+    color:white;
+    font-size:35px;
+    margin-top:30px;
+}
+
+#dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 28%;
+    margin-top: 3%;
+}
+
+select{
+    height:60px;
+    width:30%;
+    font-size:20px
+}
+
+#restaurants{
+    width:50%;
+}
+
+/* Quick Search Css*/
+
+#quicksearch{
+    width:80%;
+    height: 500px;
+    margin-left:10%;
+    margin-top:2%
+}
+
+#QuickHeading{
+    color:#192f60;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:block;
+    font-weight:bold
+}
+
+#QuickSubHeading{
+    color:gray;
+    font-size:20px;
+    margin-top: 20px;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: .01;
+}
+
+.tileContainer{
+    height: 180px;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 4%;
+    
+}
+
+#mainTileContainer{
+    margin-top: 3%; 
+    margin-left: 5%;
+}
+
+
+.tileComponent2{
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+.tileComponent1 > img{
+    height: 180px;
+    width:80%
+}
+
+.componentHeading{
+    color: #192f60;
+    font-size:25px;
+    font-weight: bold
+}
+
+.componentSubHeading{
+    color: gray;
+    font-size:18px;
+    line-height:1;
+}
+
+
+#xy{
+    margin-top:3%;
+}
+.cc{
+    margin-top:-5%;
+    text-align: center;
+} 
+ 
+.op:hover{
+   transform: scale(1.1);
+} 
+#ko h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration-color: black; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+  
+} 
+.tileConta{
+    height: 180px;
+    display: inline-block; 
+    margin-top:1%;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    height:200px;
+    width:100%; 
+    
+}  
+.mkl li a{
+    font-size: 15px;
+} 
+.tileConta > img{
+ 
+ height: 100%;
+ display: inline-block;
+} 
+.tileConta:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+   } 
+   footer{
+    margin-top:2%;
+    background-color: 00337C;
+    width: 100% fixed;
+} 
+.f h3{ 
+font-weight:bold;
+color:white ;
+margin-left:4%;
+}
+
+
+
+
+
