@@ -5,7 +5,7 @@
 }
  #x{
     margin-top:2%;
-    margin-left: 5%;
+    margin-left: 10%;
 } 
 #p{
     margin-top:2%;
@@ -52,7 +52,7 @@
     display: inline-block;
     margin-left: 2%;
     margin-top: 4%;
-    
+
 }
 .tileCon{ 
     display: inline-block;
@@ -60,7 +60,16 @@
     margin-top: 2%; 
     
     
-} 
+}  
+#moc{
+    background-image:url("https://i.ibb.co/n6mPGNH/background.jpg") ;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    
+   
+    
+   
+}
 .pc{ 
     display: inline-block;
     box-shadow: 0 2px 6px 0
@@ -70,13 +79,14 @@
     overflow-y:scroll;
     height: 60%; 
     border-radius: 1%;
+    width:100%;
     
     
     
 } 
 .tileConta:hover{
  opacity: 0.5;
- transform: scale(1.1);
+ transform: scale(1.1)
 }
 #mainTileContaine{
     margin-top: 3%; 
@@ -88,17 +98,20 @@
     margin-left:20px;
     margin-top: 20px;
 }
-
-.tileComponent1 > img{
-    height: 180px;
-    width:80%
+.tileComponent1{
+    height: 80%;
 }
-
 .componentHeading{
-    color: #192f60;
+    color: white;
     font-size:30px;
     font-weight: bold
 }
+.componentHeadingi{
+    color: black;
+    font-size:30px;
+    font-weight: bold
+}
+
 
 .componentSubHeading{
     color: gray;
@@ -125,7 +138,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } 
 .mop{
-    font-size: 20px;
+    font-size: 19px;
 
 }
 
@@ -137,12 +150,14 @@
     background-repeat: no-repeat;
     background-size: 100% 500px;
     height:200px;
-    width:100%; 
+    width:100%;  
+    
     
 } 
 .tileConta > img{
  
- height: 100%;
+ height: 80%;
+ width: 100%;
  display: inline-block;
 }
 .tileContainerf{
@@ -150,7 +165,7 @@
     display: inline-block;
     margin-left: 2%;
     margin-top: 4%; 
-    background-image: url("https://i.ibb.co/DCp2s5B/6993194.jpg");
+    background-image: url("image/football.jpg");
 
     background-repeat: no-repeat;
     background-size: 97% 500px;
@@ -161,12 +176,10 @@
 } 
 .tileContainerb{
     height: 180px;
-
     display: inline-block;
     margin-left: 2%;
     margin-top: 4%; 
-    background-image: url("https://i.ibb.co/SyP83Xt/2841278.jpg");
-   
+    background-image: url("image/bskte.jpg");
     background-repeat: no-repeat;
     background-size: 97% 500px;
     height:200px;
@@ -180,7 +193,7 @@
     display: inline-block;
     margin-left: 2%;
     margin-top: 4%; 
-    background-image: url("https://i.ibb.co/XJpbJsn/alessandro-bogliari-o-Ds-Axe-R5g4-unsplash.jpg");
+    background-image: url("cricket.jpg");
     
     background-repeat: no-repeat;
     background-size: 97% 500px;
@@ -195,7 +208,7 @@
     display: inline-block;
     margin-left: 2%;
     margin-top: 4%; 
-    background-image: url("https://i.ibb.co/4pnQjcR/badminton-zooming-white-shuttlecock-ufhols7zgvj2bcfr-jpg.webp");
+    background-image: url("image/bad.jpg");
 
     background-repeat: no-repeat;
     background-size: 97% 500px;
@@ -209,7 +222,7 @@
     display: inline-block;
     margin-left: 2%;
     margin-top: 4%; 
-    background-image: url("https://i.ibb.co/23mmc9R/3771621.jpg");
+    background-image: url("image/volly.jpg");
     background-repeat: no-repeat;
     background-size: 97% 500px;
     height:200px;
@@ -222,7 +235,7 @@
     display: inline-block;
     margin-left: 2%;
     margin-top: 4%; 
-    background-image: url("https://i.ibb.co/23mmc9R/3771621.jpg");
+    background-image: url("image/kabadi.jpg");
     background-repeat: no-repeat;
     background-size: 97% 500px;
     height:200px;
@@ -245,11 +258,17 @@
 .tileComponent2{
     margin-left:10px;
     margin-top: 20px;
+} 
+.tileComponent02{
+    margin-left:-15%;
+    margin-top: 20px;
 }
-
+.tileComponent1{
+    width: 50%;
+}
 .tileComponent1 > img{
     height: 180px;
-    width:80%
+    width:50%
 }  
 
 #ko h1{
@@ -311,5 +330,45 @@ footer{
 font-weight:bold;
 color:white ;
 margin-left:4%;
+}  
+#lp{
+ width:52%;
+}
+
+@media screen and (max-width:1600px){
+    #lp{
+        width:52%;
+       }
+}
+
+@media screen and (max-width:1400px){
+    #lp{
+        width:52%;
+       }
+}
+
+@media screen and (max-width:1200px){
+    #lp{
+        width:100%;
+       }
+}
+
+@media screen and (max-width:1000px){
+
+    .lp{
+        width:100%;
+       }
+}
+
+@media screen and (max-width:800px){
+    #lp{
+        width:100%;
+       }
+}
+
+@media screen and (max-width:600px){
+    #lp{
+        width:100%;
+       }
 }
 
