@@ -1,0 +1,315 @@
+#c{
+    background-color:white;
+    background-size: 100% 500px;
+    
+}
+ #x{
+    margin-top:2%;
+    margin-left: 5%;
+} 
+#p{
+    margin-top:2%;
+    margin-left: 5%;  
+} 
+#y
+{   margin-top:3%;
+    text-align:center;
+    font-weight: bold;
+    font-size: 50px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}  
+.mkl li a{
+        font-size: 15px;
+} 
+.bkc  a {
+    font-size: 20px;
+}
+
+.tileContainer{
+    height: 520px;
+    display: inline-block;
+    margin-left: 3%; 
+    margin-top: 2%;
+    box-shadow: 0px 0px 0px rgb(36, 22, 159) ;
+    
+}
+ 
+
+.tileContaineop{
+    height: 180px;
+    width:300px;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 4%;
+
+    
+} 
+.tileContainr{
+    height: 180px;  
+    width: 300px;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 4%;
+    
+}
+.tileCon{ 
+    display: inline-block;
+    margin-left: 3%; 
+    margin-top: 2%; 
+    
+    
+} 
+.pc{ 
+    display: inline-block;
+    box-shadow: 0 2px 6px 0
+             gray,0 4px 12px 0
+             gray;
+    overflow-y:hidden;
+    overflow-y:scroll;
+    height: 60%; 
+    border-radius: 1%;
+    
+    
+    
+} 
+.tileConta:hover{
+ opacity: 0.5;
+ transform: scale(1.1);
+}
+#mainTileContaine{
+    margin-top: 3%; 
+    margin-left: 5%;
+}
+
+
+.tileComponent2{
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+.tileComponent1 > img{
+    height: 180px;
+    width:80%
+}
+
+.componentHeading{
+    color: #192f60;
+    font-size:30px;
+    font-weight: bold
+}
+
+.componentSubHeading{
+    color: gray;
+    font-size:18px;
+    line-height:1;
+}
+
+.mnc{
+    margin-top:3%;
+}
+
+#mainTileContainer{
+    margin-top: -1%; 
+    margin-left: 4%;
+} 
+#mo{
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mom{
+    display: inline-block; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.mop{
+    font-size: 20px;
+
+}
+
+
+.tileConta{
+    height: 180px;
+    display: inline-block; 
+    margin-top:1%;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    height:200px;
+    width:100%; 
+    
+} 
+.tileConta > img{
+ 
+ height: 100%;
+ display: inline-block;
+}
+.tileContainerf{
+    height: 180px;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 4%; 
+    background-image: url("https://i.ibb.co/DCp2s5B/6993194.jpg");
+
+    background-repeat: no-repeat;
+    background-size: 97% 500px;
+    height:200px;
+    width:95%; 
+    
+    
+} 
+.tileContainerb{
+    height: 180px;
+
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 4%; 
+    background-image: url("https://i.ibb.co/SyP83Xt/2841278.jpg");
+   
+    background-repeat: no-repeat;
+    background-size: 97% 500px;
+    height:200px;
+    width:95%; 
+   
+    
+    
+}  
+.tileContainerc{
+    height: 180px;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 4%; 
+    background-image: url("https://i.ibb.co/XJpbJsn/alessandro-bogliari-o-Ds-Axe-R5g4-unsplash.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: 97% 500px;
+    height:200px;
+    width:95%;
+   
+   
+    
+}  
+.tileContainerbb{
+    height: 180px;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 4%; 
+    background-image: url("https://i.ibb.co/4pnQjcR/badminton-zooming-white-shuttlecock-ufhols7zgvj2bcfr-jpg.webp");
+
+    background-repeat: no-repeat;
+    background-size: 97% 500px;
+    height:200px;
+    width:95%;
+    
+    
+} 
+.tileContainerv{
+    height: 180px;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 4%; 
+    background-image: url("https://i.ibb.co/23mmc9R/3771621.jpg");
+    background-repeat: no-repeat;
+    background-size: 97% 500px;
+    height:200px;
+    width:95%;
+     
+    
+}  
+.tileContainerk{
+    height: 180px;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 4%; 
+    background-image: url("https://i.ibb.co/23mmc9R/3771621.jpg");
+    background-repeat: no-repeat;
+    background-size: 97% 500px;
+    height:200px;
+    width:95%;
+   
+    
+} 
+
+.tileContainer > img {
+    height: 180px;
+}
+
+#mainTileContainer{
+    margin-top: 3%;
+}
+
+
+
+
+.tileComponent2{
+    margin-left:10px;
+    margin-top: 20px;
+}
+
+.tileComponent1 > img{
+    height: 180px;
+    width:80%
+}  
+
+#ko h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration-color: black; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+  
+} 
+
+
+
+
+.tileContainerc:hover{
+   transform: scale(1.1)
+} 
+.tileContainerb:hover{
+    transform: scale(1.1)
+ }
+ .tileContainerbb:hover{
+    transform: scale(1.1)
+ }
+ .tileContainerk:hover{
+    transform: scale(1.1)
+ } 
+ .tileContainerv:hover{
+    transform: scale(1.1)
+ } 
+ .tileContainerf:hover{
+    transform: scale(1.1)
+ }
+
+.bike{
+    margin-left:1%;
+    animation: moveBike 20s infinite;
+}
+#right{
+    background-color: blue;
+
+}  
+#ko h1{
+    font-weight: bold;
+   
+} 
+.loc:hover{
+    transform: scale(1.1);
+}
+footer{
+    margin-top:2%;
+    background-color: black;
+    width: 100% fixed;
+    
+
+
+} 
+.f h3{ 
+font-weight:bold;
+color:white ;
+margin-left:4%;
+}
+
