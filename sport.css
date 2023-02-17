@@ -17,7 +17,7 @@
     font-weight: bold;
     font-size: 50px;
     color:black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:sans-serif;
     
 }  
 .mkl li a{
@@ -62,12 +62,11 @@
     
 }  
 #moc{
-    background-image:url("https://i.ibb.co/n6mPGNH/background.jpg") ;
+    background-image:url("image/bmg5.jpg") ;
     background-size: 100%;
+    height: 73%;
+    border-radius: 1%;
     background-repeat: no-repeat; 
-    
-   
-    
    
 }
 .pc{ 
@@ -165,12 +164,12 @@
     display: inline-block;
     margin-left: 2%;
     margin-top: 4%; 
-    background-image: url("image/football.jpg");
+    background-image: url("image/f10.jpg");
 
     background-repeat: no-repeat;
     background-size: 97% 500px;
     height:200px;
-    width:95%; 
+    width:95%;  
     
     
 } 
@@ -243,6 +242,12 @@
    
     
 } 
+#bmg{
+    background-image: url("image/fbmg7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 
 .tileContainer > img {
     height: 180px;
@@ -251,8 +256,6 @@
 #mainTileContainer{
     margin-top: 3%;
 }
-
-
 
 
 .tileComponent2{
@@ -275,12 +278,19 @@
     text-align: center;
     font-weight: bold;
     font-size: 50px;
-    text-decoration-color: black; 
+    text-decoration-color: #00337C; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     
   
 } 
-
+.ip{
+    font-size: 18px;
+    color: aliceblue;
+} 
+.ip a{
+    font-size: 18px;
+    color: aliceblue;
+}
 
 
 
@@ -320,13 +330,13 @@
 }
 footer{
     margin-top:2%;
-    background-color: black;
+    background-color: #00337C;
     width: 100% fixed;
     
 
 
 } 
-.f h3{ 
+.f h4{ 
 font-weight:bold;
 color:white ;
 margin-left:4%;
