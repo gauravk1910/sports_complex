@@ -47,6 +47,14 @@ body{
     margin-left: 45%;
     border-radius: 50%;
 }
+.ip{
+    font-size: 18px;
+    color: aliceblue;
+} 
+.ip a{
+    font-size: 18px;
+    color: aliceblue;
+}
 
 #logo > span {
     font-weight: bold;
@@ -155,10 +163,10 @@ select{
 } 
 #ko h1{
     text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-    text-decoration-color: black; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+    font-size: 5%;
+    text-decoration-color: rgb(235, 225, 225); 
+    font-family:sans-serif; 
     
   
 } 
@@ -186,7 +194,7 @@ select{
    } 
    footer{
     margin-top:2%;
-    background-color: black;
+    background-color: #00337C;
     width: 100% fixed;
 } 
 .f h3{ 

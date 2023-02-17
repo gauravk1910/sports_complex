@@ -61,7 +61,11 @@ body{
     font-size:35px;
     margin-top:30px;
 }
-
+#bmgg{
+    background-image: url("image/fbmg8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #dropdown{
     height:60px;
     width:60%;
@@ -180,13 +184,21 @@ select{
  height: 100%;
  display: inline-block;
 } 
+.ip{
+    font-size: 18px;
+    color: aliceblue;
+} 
+.ip a{
+    font-size: 18px;
+    color: aliceblue;
+}
 .tileConta:hover{
     opacity: 0.5;
     transform: scale(1.1);
    } 
    footer{
     margin-top:2%;
-    background-color: black;
+    background-color: #00337C;
     width: 100% fixed;
 } 
 .f h3{ 
