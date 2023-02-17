@@ -1,0 +1,30 @@
+<?php
+     $servername="localhost";
+     $username="root";
+     $password="";
+     $dbname="signupp";
+
+     $conn=new mysqli($servername,$username,$password,$dbname);
+     if($conn->connect_error)
+     {
+        die("connection fail");
+
+     } 
+     $Fname=$_POST['Fname'];
+     $Lname=$_POST['Lname'];
+     $email=$_POST['email'];
+     $password=$_POST['password'];
+     $sic=$_POST['sic'];
+     $number=$_POST['number'] ;
+
+    $sql="INSERT INTO `signup` (`Fname`, `Lname`, `email`, `password`, `sic`, `number`) VALUES ('$Fname', '$Lname', '$email', '$password', '$sic', '$number')";
+if($conn->query($sql)==true)
+{
+    echo"Thanks for signing up your record added";
+}
+else
+{
+    echo "Eroor";
+} 
+$conn->close();
+?>
